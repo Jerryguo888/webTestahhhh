@@ -1,0 +1,93 @@
+body {
+  font-family: "Microsoft JhengHei", sans-serif;
+  background: #fafafa;
+  margin: 0;
+  padding: 0;
+  font-size: 20px; /* 整體字體變大 */
+}
+
+nav {
+  background: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  position: relative;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background: #555;
+  border-radius: 5px;
+}
+
+/* 下拉選單 */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: #444;
+  padding: 10px;
+  list-style: none;
+  min-width: 180px;
+  border-radius: 5px;
+}
+
+.dropdown-content li {
+  padding: 5px 10px;
+  color: white;
+  font-size: 18px;
+}
+
+.dropdown-content li:hover {
+  background: #666;
+}
+
+/* 滑鼠移上去才展開 */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header {
+    background: linear-gradient(135deg, #ff66cc, #66ccff);
+    color: white;
+    text-align: center;
+    padding: 60px 30px;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin: 0 0 15px 0;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+/* 主要內容容器 */
+.container {
+    max-width: 1100px;
+    margin: 40px
+}
+
+.contact {
+  padding: 20px;
+  background: #eee;
+  border-radius: 10px;
+  margin: 20px;
+}
